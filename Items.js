@@ -28,6 +28,12 @@ const items = [
         name: "Juice",
         price: 30,
         quantity: 250
+    },
+    {
+        id: 6,
+        name: "Laptop",
+        price: 7000,
+        quantity: 5
     }
 ]
 

@@ -16,6 +16,18 @@ app.get("/", (req, res) => {
     });
 })
 
+app.get("/cards", (req, res) => {
+    res.render("cards", {
+        items
+    })
+})
+
+app.get("/list", (req, res) => {
+    res.render("list", {
+        items
+    })
+})
+
 app.listen(PORT, ()=>{
     console.log(`Server started listening on port ${PORT}`);
 })

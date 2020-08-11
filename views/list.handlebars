@@ -1,0 +1,11 @@
+
+<h4>Items as List</h4>
+<div class="row ml-3">
+    <dl class="list-group">
+        {{#each items}}
+        <dt class="mt-3">{{this.name}}</dt>
+        <dd>Price: {{this.price}}</dd>
+        <dd>Quantity: {{this.quantity}}</dd>
+        {{/each}}
+    </dl>
+</div>
