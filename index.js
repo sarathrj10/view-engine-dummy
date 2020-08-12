@@ -7,7 +7,7 @@ const app = express();
 
 
 
-app.engine('handlebars', exphbs());
+app.engine('handlebars', exphbs({defaultLayout : 'main'}));
 app.set('view engine', 'handlebars');
 
 app.get("/", (req, res) => {
